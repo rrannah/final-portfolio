@@ -14,7 +14,7 @@ function updateProjectData(project) {
     <div class="preview-detail">
       <div class="project-info">
         <div class="name-year">
-          <a href="../${projectHTML}" class="project-name">
+          <a href="final-portfolio/${projectHTML}" class="project-name">
             <h3><span>${project.name}</span></h3>
           </a>
   
@@ -33,7 +33,7 @@ function updateProjectData(project) {
         </h5>
       </div>
   
-      <a href="${projectHTML}" class="project-image-link">
+      <a href="final-portfolio/${projectHTML}" class="project-image-link">
       <div class="fadeInScroll"> <img class="project-image" src="${project.image}"">  </div>
       </a>
     </div>
