@@ -46,7 +46,7 @@ console.log(projectHTML);
 
 let projects = [];
 
-fetch('../database.json')
+fetch('https://raw.githubusercontent.com/rrannah/final-portfolio/27f7a842acd7bce20e72366903ffbad3292a6467/database.json')
     .then(response => response.json())
     .then(data => {
         // Loop through each project
