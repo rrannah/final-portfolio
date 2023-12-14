@@ -14,7 +14,7 @@ function updateProjectData(project) {
     <div class="preview-detail">
       <div class="project-info">
         <div class="name-year">
-          <a href="${projectHTML}" class="project-name">
+          <a href="../${projectHTML}" class="project-name">
             <h3><span>${project.name}</span></h3>
           </a>
   
