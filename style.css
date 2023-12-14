@@ -1,0 +1,308 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: rgb(0, 0, 0);
+  margin: 0%;
+  padding: 40px 80px 0px 60px;
+}
+
+#second-row {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 580px;
+}
+
+.vertical-menu {
+  align-self: flex-end;
+  align-content: flex-end;
+  font-size: 16px;
+  line-height: 25px;
+  color: white;
+  width: 420px;
+}
+#video-matrix {
+  opacity: 0;
+  /* Initially, set opacity to 0 */
+  animation: fadeIn 2.5s ease forwards;
+  /* animation-delay: 0s;
+    /* Optional delay to control when the animation starts */
+  width: 76%;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-content: flex-end; */
+  justify-content: flex-end;
+}
+
+video {
+  margin: 30px 0px 0px 40px;
+  /* margin:4% 0% 1% 3%; */
+  height: 28%;
+}
+
+
+p {
+  /* padding-bottom: 40px; */
+  animation: animate 4s linear infinite;
+  color: white;
+  text-align: center;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+a:link {
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+
+
+/* .video-matrix-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    width: 80%;
+} */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeOnScroll {
+  color: white;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 5s ease, transform 5s ease;
+}
+
+.fadeOnScroll.fadeOut {
+  opacity: 0.1;
+  transform: translateY(-30px);
+}
+
+.fadeInScroll {
+  color: white;
+  opacity: 0.1;
+
+  transition: opacity 2s ease;
+}
+
+.fadeInScroll.fadeIn {
+  opacity: 1;
+}
+
+/* .video-matrix {
+ 
+    opacity: 0;
+    animation: fadeIn 2.5s ease forwards; 
+   
+    width: 76%;
+    height: 70vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+video {
+    margin: 30px 0px 0px 40px;
+    height: 28%;
+} */
+
+.spacer {
+  padding: 30px;
+  height: 50px;
+}
+
+.preview-detail {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+  padding-right: 13%;
+}
+
+.project-image-link {
+  display: inline-block; /* Ensure the link respects dimensions */
+  overflow: hidden; /* Hide overflowing content */
+  position: relative; /* Establish positioning context */
+  width: 52%; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop the image to cover the container */
+  position: absolute; /* Set position to absolute for centering */
+  top: 50%; /* Move the image to the center vertically */
+  left: 50%; /* Move the image to the center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(0, 0, 0); /* Choose your desired background color */
+  color: white; /* Choose your desired text color */
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+@media (min-width: 1540px) {
+  #second-row {
+    height: 70vh;
+  }
+  #video-matrix {
+    width: 120vh;
+  }
+  .project-image-link {
+    height: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #video-matrix {
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.2;
+  }
+  .vertical-menu {
+    width: 300px;
+  }
+
+  .project-image-link {
+    height: 600px;
+  }
+}
+
+@media (max-width: 986px) {
+    #video-matrix {
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      opacity: 0.2;
+    }
+    .vertical-menu {
+      width: 100px;
+    }
+  
+    .project-image-link {
+      height: 600px;
+    }
+  }
+  
+
+@media only screen and (max-width: 700px) {
+#second-row{
+    background-image: url('butterfly_garden2.png');
+    background-color: black;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height:85vh;
+    width: 100vw;
+    z-index: -10000;
+  
+
+}
+
+
+.vertical-menu {
+    align-content: flex-start;
+    padding-bottom: 100px;
+padding-left: 40px;
+  }
+
+.spacer{
+    background-image: linear-gradient(to top, black , rgba(0, 0, 0, 0));
+    margin-top: 87vh;
+ 
+}
+  #video-matrix{
+visibility: hidden;
+    }
+
+    body {
+        padding: 0px;
+      }
+      
+   
+    #projectsSection{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+
+ .preview-detail {
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    text-align: center;
+  }
+
+  .project-image-link{
+      width: 100%;
+      height: 250px;
+
+  }
+  .project-image{
+    padding-bottom: 20px;
+  }
+.project-info{
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+    order: 1;
+}
+.tag{display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+
+
+}
+.tag-detail{
+  padding-right: 10px;
+}
+
+
+}
+
+

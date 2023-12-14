@@ -1,0 +1,165 @@
+h1 {
+    color: rgb(185, 255, 216);
+    font-size: 16pt;
+    margin-block-start: 0%;
+    margin: 0%;
+    text-transform: uppercase;
+}
+h1:hover{
+    cursor: pointer;
+}
+h2 {
+    color: white;
+    font-size: 12pt;
+    font-weight: lighter;
+    margin-inline-end: 0%;
+    margin: 0%;
+}
+/* project-title */
+h3 {
+  color: white;
+  font-size: 16pt;
+  font-weight: lighter;
+  margin: 0%;
+  text-transform: uppercase;
+}
+h3:hover{
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+}
+/* project-year */
+
+h4 {
+    color: white;
+    font-size: 12pt;
+    margin: 0%;
+    font-weight: lighter;
+    line-height: 1.2;
+
+}
+/* project-tag */
+
+h5 {
+    color: rgb(185, 255, 216);
+    font-size: 12pt;
+    margin: 0%;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+
+h6{
+    font-size: 18pt;
+    margin-top: 5px;
+margin-bottom: 10px;
+}
+h7{
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+a:link {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+a:visited {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+#first-row {
+    position: fixed;
+    padding-top: 30px;
+padding-bottom: 20px;
+    top: 0px;
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+ 
+    
+}
+
+/* #name{
+position: fixed;
+
+} */
+
+
+#description {
+    width: 300px;
+    padding-right: 140px;
+    text-align: end;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#new-media{
+    color: rgb(185, 255, 216);
+}
+
+/* Synapse_COR🧙🏾‍♂️: I am an expert in CSS styling. I know the structure of HTML and how to manipulate it with styles. I will reason step-by-step to create the desired effect. I can use CSS tools to bring about this enchantment. */
+
+/* Style for hiding the short-description class initially */
+/* Simplified CSS for debugging */
+.short-description {
+    padding-top: 5px;
+  display: none;
+  text-align: justify;
+}
+
+.name-year:hover .short-description {
+  display: block;
+}
+
+
+.short-description{
+    width: 95%;
+}
+a:visited {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+  .link:visited {
+    color: white;
+  }  
+
+  @media only screen and (max-width:700px){
+    #first-row {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 100vw;
+         background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7441570378151261) 52%, rgba(0,0,0,0) 100%);
+
+        
+      }
+      #name{
+          width: 100px;
+       
+      }
+      #description{
+        width: 120px;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+      line-height: 1.4;
+      padding-right: 40px;
+
+        }
+      
+  }
+
+  /* width: 300px;
+  padding-right: 140px;
+  text-align: end;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; */

@@ -1,0 +1,59 @@
+[
+    {
+        "id": 2,
+        "name": "The Last Few Hours",
+        "year": 2023,
+        "tags": "#Maya, #Premiere,",
+        "description": "The animation explores the fragility and transience of life, delving into mysterious realms beyond human comprehension and the potential for transformation or transcendence. Through the protagonist's strange experiences and illusions at the airport, the story presents contemplations on the abrupt cessation of life and death. Ultimately, the protagonist undergoes a metamorphosis into an octopus, symbolizing a new form or existence, prompting viewers to reflect on life and reality.        ",
+        "image": "thelasthour.jpg",
+        "shortdescription": "A garden of cyborg creatures"
+    },
+    {
+        "id":4,
+        "name": "Between You & Me",
+        "year": 2022,
+        "tags": "#p5.js, #Arduino, #Laser Cutting, #3D Printing,",
+        "description": "This interactive yin-yang art piece blends technology and creativity seamlessly, utilizing p5.js, Arduino, and laser cutting. \nAs participants, you play a pivotal role – lighting up half of the yin-yang each, collectively creating a captivating display that mirrors the harmony between individuals./n “Between You&Me” delves into the profound concept of interpersonal synergy, creating an immersive experience that symbolizes the beauty of collaboration and how individuals, like pieces of a puzzle, complement each other to form a mesmerizing whole.",
+        "image": "between_you&me2.png",
+        "shortdescription": "An interactive tactile experience chanelling the Ancient Chinese concept Yin-Yang."
+    },
+
+    {
+        "id": 3,
+        "name": "The Green Suit",
+        "year": 2022,
+        "tags": "#p5.js, #posenet, #webcam,",
+        "description": "“The Green Suit” is an interactive screen project that captivates and challenges our understanding of visibility and technology in the digital age. \nIt started with a sewing project in October 2022, which the user will wear the green suit to pretend to be “invisible” while very much still physically seen.Then it develops to a real time interactive art through the use of coded chroma key technology, the project masks users in anonymous green suits and eventually removes them from the screen, rendering them invisible. However, the whole process is still based on the audience’s physical existence and involvement, which is captured and stored in the digital world indefinitely. \n“The Green Suit” is a powerful commentary on our relationship with technology and the impact it has on our lives, encouraging us to reflect on the ways in which we present ourselves and are seen in the digital world.",
+        "image": "thegreensuit_1.png",
+        "shortdescription": "A web based project challenging the concept of digital identity and 'How Not to be Seen'. \nExhibited in The Blanc Gallery, NY in April, 2023."
+    },
+  
+    {
+        "id": 1,
+        "name": "Her: World(s)",
+        "year": 2022,
+        "tags": "#Unity, #Blender, #Maya, #VR,",
+        "description": "VR",
+        "image": "herworlds_2.png",
+        "shortdescription": "A VR experience of islands with whimsical creatures."
+    },
+
+
+    {
+        "id": 5,
+        "name": "The Garden|蝴蝶兰骨",
+        "year": 2023,
+        "tags": "#MachineLearning, #ColabNotebook, #Photoshop,",
+        "image": "butterfly_garden.png",
+        "shortdescription": "A garden of cyborg creatures inspired from butterfly, orchid flowers, and pelvis realized through self-trained machine learning mdoel. \n Featured in AAAAH! Art Fest in 2023."
+    },
+    
+    {
+        "id": 6,
+        "name": "A Chat",
+        "year": 2023,
+        "tags": "#TouchDesigner, #Arduino, #Audio Visual Performance, #Projection Mapping,",
+        "image": "september.jpg",
+        "shortdescription": "A garden of cyborg creature."
+    }
+]

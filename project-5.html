@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="projectstyle.css" />
+    <link rel="stylesheet" href="font.css" />
+
+    <title>Project Display</title>
+    <!-- Reference your external script file -->
+  </head>
+
+  <body>
+    <div id="first-row"></div>
+
+    <div class="project">
+      <!-- Placeholder spans for each project with non-consecutive IDs -->
+
+      <div class="info">
+        <h3><span id="project5Name" onclick="scrollToTop()"></span></h3>
+        <h4><span id="project5Year"></span></h4>
+        <h5><span id="project5Tags"></span><br /></h5>
+      </div>
+      <div class="left-place-holder"></div>
+      <div class="detail">
+        <video src="TheLastFewHours.mp4" type="video/mp4" controls></video>
+        <h7>documented in NYU IMA documentation lab</h7>
+        <div class="divider"></div>
+        <h6>01 Introduction</h6>
+        <h7><span id="project5Description"></span><br /></h7>
+        <div class="divider"></div>
+
+        <h6>02 Process</h6>
+        <div class="divider"></div>
+
+        <h6>03 Outcome</h6>
+      </div>
+    </div>
+    <script src="project.js"></script>
+    <script src="header.js"></script>
+
+    <!-- Add similar spans for other non-consecutive projects as needed -->
+  </body>
+</html>
